@@ -1,0 +1,157 @@
+.container {
+  width: 85%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.container .random {
+  margin-bottom: -26px;
+  background: transparent;
+}
+
+.container .random button {
+  display: inline-block;
+  height: 25px;
+  border: none;
+  outline: 0;
+  background: transparent;
+  cursor: pointer;
+  scale: 1.2;
+  transition: all 300ms;
+}
+
+.container .random button:hover {
+  scale: 1.35;
+  transition: all 300ms;
+}
+
+#enabled,
+#right {
+  border: none;
+  outline: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  height: 50px;
+  width: 50px;
+}
+
+#ico,
+#icon {
+  scale: 2.5;
+  cursor: pointer;
+  transition: all 400ms;
+}
+
+#disicon {
+  scale: 2.5;
+  cursor: pointer;
+  transition: all 400ms;
+}
+
+#ico:hover {
+  padding-left: 10px;
+}
+
+#icon:hover {
+  padding-right: 10px;
+}
+
+#title {
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.pokemon {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  justify-content: center;
+  column-gap: 150px;
+}
+
+.pokemon img {
+  height: 400px;
+  width: 400px;
+}
+
+.container .left button {
+  border: none;
+  outline: 0;
+  position: relative;
+}
+
+.left,
+.right {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  margin: 0 100px;
+}
+
+.left-div .left-top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 10px;
+  margin-bottom: -20px;
+}
+
+.left-div .left-down {
+  width: 110%;
+}
+
+.left-div .left-top img {
+  height: 40px;
+  width: 40px;
+}
+
+.left-div .left-top h3 {
+  text-transform: uppercase;
+}
+
+.first,
+.second,
+.third {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -10px 0;
+}
+
+.container .bottom-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+  background-color: #a3a3a3;
+}
+
+.container .bottom-div #first,
+#second,
+#third,
+#fourth,
+#fifth,
+#sixth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-div .categories {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container .top-container {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(174, 38, 38, 0.726);
+}
