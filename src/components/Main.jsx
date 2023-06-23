@@ -22,7 +22,9 @@ const Main = ({ fetcher, pokeIndex, setPokeIndex, randomPokemon }) => {
   if (!data1) {
     return (
       <>
-        <Loader />
+        <div className={data1 ? "spinner_main" : "spinner_main spinner_main_hidden"}>
+          <Loader data1={data1} />
+        </div>
       </>
     );
   }

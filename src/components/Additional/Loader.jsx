@@ -1,11 +1,7 @@
 import "../Additional/loader.css";
 
-const Loader = () => {
-  return (
-    <div className="loader">
-      <h2>Please wait.....</h2>
-    </div>
-  );
+const Loader = ({ data1 }) => {
+  return <div className="loader" />;
 };
 
 export default Loader;

@@ -1,6 +1,36 @@
 .loader {
-  margin: 20% auto;
-  width: min-content;
-  height: min-content;
-  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  transition: opacity 700ms, visibility 700ms;
+}
+
+.loader--hidden{
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 700ms, visibility 700ms;
+}
+
+.loader::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border: 6px solid #be053a;
+  border-top-color: black;
+  border-radius: 50%;
+  animation: spinner 700ms linear infinite;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

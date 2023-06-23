@@ -18,11 +18,12 @@ const Search = ({ fetcher }) => {
     );
   }
 
-  if (data) {
-  } else {
+  if (!data) {
     return (
       <>
-        <Loader />
+        <div className="loader_search">
+          <Loader />
+        </div>
       </>
     );
   }

@@ -1,7 +1,7 @@
 const Error = () => {
   return (
-    <div className="loader">
-      <h2>Error</h2>
+    <div className="error">
+      <h2>Error occured while fetching the data. Please try again after some time!!</h2>
     </div>
   );
 };

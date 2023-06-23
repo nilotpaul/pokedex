@@ -3,11 +3,22 @@
   height: auto;
   margin: auto;
   margin-top: 20px;
+  transition: opacity 1000ms, visibility 1000ms;
 }
 
 .container .random {
   margin-bottom: -26px;
   background: transparent;
+}
+
+.spinner_main {
+  transition: opacity 1000ms, visibility 1000ms;
+}
+
+.spinner_main_hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1000ms, visibility 1000ms;
 }
 
 .container .random button {
